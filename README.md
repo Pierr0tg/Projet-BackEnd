@@ -8,6 +8,7 @@ Je décris mon projet
 
 Pierr0tg : Pierrot GAYRAUD
 FlopLaitue : Foulques DE MONICAULT
+------ : Mélanie GAUTIER
 
 ## Fonctionnalités
 
