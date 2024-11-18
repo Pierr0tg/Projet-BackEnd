@@ -5,11 +5,10 @@
 Je décris mon projet
 
 ## Membres
-
-DuPond: Jean Dupond
+Pierr0tg : Pierrot GAYRAUD
+FlopLaitue : Foulques DE MONICAULT
 
 ## Fonctionnalités
 
-- starter: DuPond
-
-- Sécurité: DuPond
+- starter:
+- Sécurité:
