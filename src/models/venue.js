@@ -38,7 +38,7 @@ Venue.init({
         allowNull: true 
     },
     amenities: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+        type: DataTypes.JSON,
         defaultValue: []
     },
     imageUrl: {

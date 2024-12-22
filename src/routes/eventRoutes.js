@@ -6,16 +6,13 @@ const auth = require('../middleware/auth');
 const { roleCheck } = require('../middleware/roleCheck');
 
 // Routes publiques
-router.get('/event', eventController.getAll);
-router.get('event/:id', eventController.getById);
-
-// Routes protégées (nécessitent authentification)
-router.use(auth);
+router.get('/event',auth, eventController.getAll);
+router.get('/event/:id',auth, eventController.getById);
 
 // Routes pour les organisateurs
-router.post('event/create', roleCheck('organizer', 'admin'), eventController.create);
-router.put('event/update/:id', roleCheck('organizer', 'admin'), eventController.update);
-router.delete('event/delete/:id', roleCheck('organizer', 'admin'), eventController.delete);
-router.post('event/:id/publish', roleCheck('organizer', 'admin'), eventController.publish);
+router.post('/event/create',auth, roleCheck('organizer', 'admin'), eventController.create);
+router.put('/event/update/:id',auth, roleCheck('organizer', 'admin'), eventController.update);
+router.delete('/event/delete/:id',auth, roleCheck('organizer', 'admin'), eventController.delete);
+router.post('/event/:id/publish',auth, roleCheck('organizer', 'admin'), eventController.publish);
 
 module.exports = router;

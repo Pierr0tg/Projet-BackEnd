@@ -46,9 +46,4 @@ User.init(
 	}
 );
 
-// À la fin de votre fichier user.js, avant module.exports
-console.log('User model initialized:', User === sequelize.models.User); // Devrait afficher true
-console.log('Available models:', Object.keys(sequelize.models));
-console.log('User.create exists:', typeof User.create === 'function'); // Devrait afficher true
-
 module.exports = User;

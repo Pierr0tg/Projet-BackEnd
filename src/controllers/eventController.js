@@ -1,5 +1,8 @@
 const { Op } = require('sequelize');
-const { Event, User, Venue, Ticket } = require('../models');
+const Event = require('../models/event');
+const User = require('../models/user');
+const Venue = require('../models/venue');
+const Ticket = require('../models/ticket');
 
 const eventController = {
 

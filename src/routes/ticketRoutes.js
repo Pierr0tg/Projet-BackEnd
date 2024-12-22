@@ -7,7 +7,6 @@ const eventController = require('../controllers/eventController');
 
 router.post('/events/:eventId/tickets', auth, ticketController.purchase);
 router.get('/tickets/user', auth, ticketController.getUserTickets);
-router.post('/events/create', auth, isAdmin, eventController.createEvent);
 
 module.exports = router;
 /**
