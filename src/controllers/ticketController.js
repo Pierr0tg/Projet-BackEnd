@@ -1,5 +1,5 @@
 const Ticket = require('../models/ticket');
-// const Event = require('../models/event'); // Si nécessaire
+const Event = require('../models/event'); // Si nécessaire
 const QRCode = require('qrcode');
 
 const ticketController = {
