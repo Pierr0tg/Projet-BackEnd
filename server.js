@@ -3,6 +3,8 @@ const express = require('express');
 const sequelize = require('./src/config/database');
 const app = express();
 const ticketRoutes = require('./src/routes/ticketRoutes');
+const eventRoutes = require('./src/routes/eventRoutes');
+const venueRoutes = require('./src/routes/venueRoutes');
 const transactionRoutes = require('./src/routes/transactionRoutes');
 const swaggerSetup = require('./swagger');
 const userRoutes = require('./src/routes/userRoutes');
@@ -15,6 +17,8 @@ swaggerSetup(app); // Configure Swagger ici
 // Routes
 app.use('', transactionRoutes);
 app.use('', ticketRoutes);
+app.use('', eventRoutes);
+app.use('', venueRoutes);
 app.use('', userRoutes);
 
 // Route de test
