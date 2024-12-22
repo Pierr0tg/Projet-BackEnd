@@ -2,7 +2,12 @@
 
 ## Description
 
-Je décris mon projet
+npm install pour les extentions
+npm run pour lancer le serveur
+
+
+
+adapter le nom de la bd (fichier .env)
 
 ## Membres
 
