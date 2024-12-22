@@ -2,9 +2,7 @@
 
 ## Description
 
-
-
-
+API RESTful pour Spot On, une plateforme de gestion d'événements festifs à Paris. L'application permet aux utilisateurs de découvrir, acheter et revendre des places pour des soirées, et aux organisateurs de créer et gérer leurs événements.
 
 ## Info pratique
 npm install pour les extentions
