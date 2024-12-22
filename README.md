@@ -1,4 +1,4 @@
-# Le Super Projet
+# SpotOn
 
 ## Description
 
