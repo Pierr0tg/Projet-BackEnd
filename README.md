@@ -8,7 +8,9 @@
 
 ## Info pratique
 npm install pour les extentions
+
 npm run pour lancer le serveur
+
 adapter le nom de la bd (fichier .env)
 
 testes dans postmans(certains sont manquants) :
