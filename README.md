@@ -22,5 +22,6 @@ https://www.postman.com/lasalade/workspace/my-workspace/collection/40596286-5abe
 
 ## Fonctionnalités
 
-- starter:
-- Sécurité:
+- Gestion des Utilisateurs : Pierrot
+- Gestion des Événements : Mélanie
+- Gestion des Tickets : Foulques
